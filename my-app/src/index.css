@@ -10,4 +10,85 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} 
+
+
+
+.g-card {
+  margin: 20px;
+}
+
+
+.g-card-image {
+  border-radius: 10px;
+  width: 420px;
+  height: 300px;
+  box-shadow: 0px 0px 3px 1px #ccc;
+}
+
+
+.g-card-info {
+  margin-top: 10px;
+  min-height: 100px;
+}
+
+
+.g-card-title {
+  font-size: 24px; 
+  color: purple;
+  margin: 0px;
+}
+
+
+.g-card-sub-title {
+  font-size: 16px;
+  margin: 0px;
+}
+
+
+.success-msg {
+  color: #57A773;
+  padding: 10px 15px;
+}
+
+
+.err-msg {
+  color: #EE6352;
+  padding: 10px 15px;
+}
+
+.h1 {
+  color: purple
+} 
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold; 
+  color: purple;
+} 
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.40rem;
+  line-height: inherit;
+  white-space: nowrap;
+}  
+
+
+.navbar-light .navbar-brand {
+  color: purple;
+} 
+
+.btn-primary {
+  color: rgb(3, 3, 3);
+  background-color: #ee94ee;
+  border-color: #610a77;
 }

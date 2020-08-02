@@ -1,8 +1,11 @@
 import React from 'react'; 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import {GithubOcticonsIcons } from "react-icons/go"; 
 
-import Card from '../components /Card'; 
+
+
+import Card from '../components /Card';  
 // images for cards  
 import travelmag from'../Assets/images/travelmag.jpg';
 import weatherapp from '../Assets/images/weatherapp.png'; 
@@ -31,6 +34,7 @@ class Carousel extends React.Component {
                     subTitle: 'Project 2',
                     imgSrc: travelmag,  
                     link: 'https://github.com/sadia110/Travel-Mag' ,
+                    link: 'https://shielded-sierra-26115.herokuapp.com',
                     selected: false
                 },
                 {
@@ -39,6 +43,8 @@ class Carousel extends React.Component {
                     subTitle: 'Project 2',
                     imgSrc: project1,
                     link: 'https://github.com/EddiEsteban/Mood-Food-and-Chill',
+                    link: 'https://eddiesteban.github.io/Mood-Food-and-Chill/',
+
                     selected: false
                 },
                 {
@@ -46,7 +52,8 @@ class Carousel extends React.Component {
                     title: 'Weather App',
                     subTitle: 'Assignment ', 
                     imgSrc: weatherapp, 
-                    link:'https://github.com/sadia110/Weather',
+                    link:'https://github.com/sadia110/Weather', 
+                    link: 'https://sadia110.github.io/Weather/',
                     selected: false
                 }, 
                 {
@@ -54,7 +61,8 @@ class Carousel extends React.Component {
                     title: 'Note Taker',
                     subTitle: 'Assignment ', 
                     imgSrc: note,  
-                    link:'https://github.com/sadia110/Note',
+                    link:'https://github.com/sadia110/Note', 
+                    link: 'https://note313.herokuapp.com',
                     selected: false
                 },
                 {
@@ -70,7 +78,8 @@ class Carousel extends React.Component {
                     title: 'Day Planner',
                     subTitle: 'Assignment ',  
                     imgSrc: dayplanner,  
-                    link:'https://github.com/sadia110/Day-Planner',
+                    link:'https://github.com/sadia110/Day-Planner', 
+                    link: 'https://sadia110.github.io/Day-Planner-/',
                     selected: false
                 },
                 {
@@ -78,7 +87,8 @@ class Carousel extends React.Component {
                     title: 'Password Generator',
                     subTitle: 'Assignment ', 
                     imgSrc: passwordgen,  
-                    link: 'https://github.com/sadia110/Password-Gen.', 
+                    link: 'https://github.com/sadia110/Password-Gen.',  
+                    link: 'https://sadia110.github.io/Password-Gen./',
 
                     selected: false
                 },
