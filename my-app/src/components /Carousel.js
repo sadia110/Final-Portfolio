@@ -1,12 +1,16 @@
-import React from 'react';
-
-import Card from '../components /Card';
-
-
+import React from 'react'; 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
-class Carousel extends React.Component {
+import Card from '../components /Card'; 
+// images for cards  
+import travelmag from'../Assets/images/travelmag.jpg';
+
+
+
+
+class Carousel extends React.Component { 
+    // 1000 600 pixal 
 
     constructor(props) {
         super(props);
@@ -15,7 +19,8 @@ class Carousel extends React.Component {
                 {
                     id: 0,
                     title: 'TravMag',
-                    subTitle: 'Project 2', 
+                    subTitle: 'Project 2',
+                    imgSrc: travelmag, 
                     selected: false
                 },
                 {
