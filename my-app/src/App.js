@@ -29,10 +29,12 @@ constructor(props) {
       text: 'Checkout the projects below that I have completed in my bootcamp journey...'
     },
     about: {
-      title: 'About Me'
+      title: 'About Me',
+
     },
     contact: {
-      title: 'Contact Me'
+      title: 'Contact Me',  
+
     }
   }
 }  
