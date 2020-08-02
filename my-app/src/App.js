@@ -2,10 +2,12 @@ import React from 'react';
 import logo from './logo.svg'; 
 import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container'; 
-import Navbar from 'react-bootstrap/Navbar';
+import Navbar from 'react-bootstrap/Navbar'; 
+import Nav from 'react-bootstrap/Nav';
+import './App.css'; 
 
+import Footer from './components /Footer';
 
-import './App.css';
 
 class App extends React.Component {
 
@@ -38,7 +40,6 @@ render() {
       <Container fluid = {true}> 
       <Navbar className="border-bottom" bg="transparent" expand="lg">
             <Navbar.Brand>Sadia Batool</Navbar.Brand>
-
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
@@ -47,7 +48,9 @@ render() {
                 <Link className="nav-link" to="/contact">Contact</Link>
               </Nav>
             </Navbar.Collapse>
-          </Navbar>
+          </Navbar> 
+          <Footer />
+
 
       </Container>
      
